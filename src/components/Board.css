@@ -1,0 +1,12 @@
+/* src/components/Board.css */
+.board {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 2px;
+  max-width: 100%;
+  margin: 0 auto;
+  border: 10px solid #8B4513;
+  padding: 10px;
+  background-color: #D2B48C;
+  box-sizing: border-box;
+}
